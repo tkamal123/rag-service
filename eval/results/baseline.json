@@ -1,0 +1,18 @@
+{
+  "label": "baseline",
+  "top_k": 4,
+  "llm": "gemini:gemini-2.5-flash",
+  "max_distance": 0.75,
+  "index": {
+    "files": 3,
+    "chunks": 7,
+    "chunk_size": 500,
+    "overlap": 80
+  },
+  "n_answerable": 15,
+  "n_unanswerable": 4,
+  "retrieval": {
+    "hit_rate@4": 1.0,
+    "mrr": 0.967
+  }
+}

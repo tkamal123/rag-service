@@ -1,0 +1,25 @@
+{
+  "answerable": [
+    {"question": "How long do customers on a monthly plan have to request a full refund?", "ground_truth": "Monthly plan customers can request a full refund within 14 days of their first payment.", "source": "refund_policy.md"},
+    {"question": "What is the refund window for annual plans?", "ground_truth": "Annual plans can be fully refunded within 30 days of purchase.", "source": "refund_policy.md"},
+    {"question": "When can an annual customer get a prorated refund after 30 days?", "ground_truth": "A prorated refund is available only if the account has had a documented service outage of more than 24 hours.", "source": "refund_policy.md"},
+    {"question": "How long does it take for an approved refund to reach the customer?", "ground_truth": "Approved refunds are returned to the original payment method within 7 business days.", "source": "refund_policy.md"},
+    {"question": "Can I get a refund for add-on credits I already used?", "ground_truth": "No. Refunds are not available for add-on credits that have already been consumed.", "source": "refund_policy.md"},
+    {"question": "How long is the free trial and do I need a credit card?", "ground_truth": "The free trial lasts 14 days, includes all Pro features, and requires no credit card.", "source": "onboarding_guide.md"},
+    {"question": "How do I connect my first data source?", "ground_truth": "Open Settings, choose Integrations, and select a connector such as PostgreSQL, BigQuery or Google Sheets.", "source": "onboarding_guide.md"},
+    {"question": "How many team members can I invite on the Starter plan?", "ground_truth": "Up to 5 team members on the Starter plan.", "source": "onboarding_guide.md"},
+    {"question": "Which workspace role is allowed to manage billing?", "ground_truth": "Only Admins can manage billing and delete data sources.", "source": "onboarding_guide.md"},
+    {"question": "How often do dashboards refresh and can Pro users change it?", "ground_truth": "Dashboards refresh every 6 hours by default, and Pro customers can set it as often as every 15 minutes.", "source": "onboarding_guide.md"},
+    {"question": "What encryption does Acme Analytics use for customer data?", "ground_truth": "AES-256 at rest and TLS 1.2 or higher in transit.", "source": "security_faq.md"},
+    {"question": "Which plan supports SAML single sign-on?", "ground_truth": "SAML 2.0 single sign-on is supported on the Pro plan.", "source": "security_faq.md"},
+    {"question": "Is customer data used to train machine learning models?", "ground_truth": "No. Customer data is never used to train machine learning models.", "source": "security_faq.md"},
+    {"question": "How long until my data is removed from backups after deleting a workspace?", "ground_truth": "Data is removed from production within 30 days and from backups within 90 days.", "source": "security_faq.md"},
+    {"question": "What are the support hours?", "ground_truth": "Chat support is available 8am to 8pm Gulf Standard Time, Sunday to Thursday.", "source": "security_faq.md"}
+  ],
+  "unanswerable": [
+    "What is the CEO's favourite football team?",
+    "Does Acme Analytics integrate with Snowflake?",
+    "How do I train a neural network in PyTorch?",
+    "What is the price of the Pro plan per month?"
+  ]
+}
